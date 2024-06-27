@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&display=swap');
+
+.navbar {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.navbar .nav-link {
+    color: #2A4C09; 
+}
+
+.navbar .navbar-brand {
+    color: #2A4C09; 
+}
+
+.navbar .nav-link.active {
+    color: #7CBD1E; 
+}
+
+.navbar .nav-link:hover {
+    color: #7CBD1E;
+}
+
+.hero {
+    background-color: #A5BE61;
+}
+
+.banner {
+    background-image: url('images/Banner Web Peara Store.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding-top: 18%;
+    padding-bottom: 30%;
+    height: 70vh;
+}
+
+.image-column {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px; 
+}
+
+.image-column-about {
+    margin-left: auto; 
+    margin-right: 0;
+    padding-right: 20px; 
+}
+
+
+.about {
+    background-image: url('images/v300batch2-nunoon-13.jpg');
+    height: fit-content;
+}
+
+.about-heading {
+    font-size: 3rem; 
+    font-weight: 700;
+    color: #2A4C09;
+    margin-left: 10%;
+    padding-top: 20%;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-paragraph {
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 50px; 
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.catalog-heading {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+
+.catalog-paragraph {
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 1000;
+    font-size: larger;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.catalog-paragraph2 {
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 1000;
+    font-size: larger;
+    font-style: normal;
+    color: #2A4C09 !important;
+}
+
+.catalog {
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('images/BG Catalog.png');
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.contact .btn {
+    padding: 10px 30px; 
+    font-family: 'Averia Sans Libre', sans-serif; 
+    font-weight: 500;
+    text-transform: uppercase; 
+}
+
+.contact .btn-success {
+    background-color: #7CBD1E;
+    border-color: #7CBD1E; 
+}
+
+.contact .btn-primary {
+    background-color: #2A4C09;
+    border-color: #2A4C09;
+}
+
+.contact .btn-x {
+    background-color: #688533;
+    border-color: #688533;
+    color: #fff;
+}
+
+.contact .btn i {
+    margin-right: 5px; 
+}
+
+.btn-success:hover,
+.btn-x:hover {
+    background-color: #2A4C09; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.btn-primary:hover {
+    background-color: #7CBD1E; 
+    color: #fff; 
+    text-decoration: none;  
+}
+
+/* Tombol untuk "Check This" di Catalog */
+.catalog .btn-primary {
+    background-color: #7CBD1E;
+    border-color: #7CBD1E;
+    color: #fff;
+}
+
+/* Efek Hover untuk Tombol Check This di Catalog */
+.catalog .btn-primary:hover {
+    background-color: #2A4C09;
+    border-color: #2A4C09;
+    color: #fff;
+}
+
+.container.text-center {
+    text-align: center;
+}
+
+.contact {
+    background-color: #F1F864;
+    background-size: 98%;
+    background-blend-mode: overlay;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h2 {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #2A4C09;
+}
+
+.contact p {
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 1000;
+    font-size: larger;
+    font-style: normal;
+    color: #2A4C09; 
+}
+
+.contact .row {
+    margin-top: 5px;
+}
+
+.contact .col-md-6 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.contact img {
+    max-width: 100%;
+    border-radius: 50%; 
+    box-shadow: 0px 0px 15px rgba(56, 54, 54, 0.774);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact img:hover {
+    transform: scale(1.1);
+}
+
+.contact .btn {
+    padding: 10px 30px; 
+    font-family: 'Averia Sans Libre', sans-serif; 
+    font-weight: 500;
+    text-transform: uppercase; 
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.452);
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.479); 
+}
+
+.image-column img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-column img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #2A4C09 !important;
+}

@@ -126,18 +126,19 @@
 }
 
 .contact .btn-success {
-    background-color: #7CBD1E;
-    border-color: #7CBD1E; 
+    background-color: #528317;
+    border-color: #528317; 
 }
 
 .contact .btn-primary {
-    background-color: #2A4C09;
-    border-color: #2A4C09;
+    background-color: #528317;
+    border-color: #528317;
+    color: #fff;
 }
 
 .contact .btn-x {
-    background-color: #688533;
-    border-color: #688533;
+    background-color: #528317;
+    border-color: #528317;
     color: #fff;
 }
 
@@ -146,16 +147,11 @@
 }
 
 .btn-success:hover,
+.btn-primary:hover,
 .btn-x:hover {
     background-color: #2A4C09; 
     color: #fff; 
-    text-decoration: none; 
-}
-
-.btn-primary:hover {
-    background-color: #7CBD1E; 
-    color: #fff; 
-    text-decoration: none;  
+    text-decoration:solid; 
 }
 
 /* Tombol untuk "Check This" di Catalog */
